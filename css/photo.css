@@ -1,0 +1,641 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.my{
+	
+	color: white;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+    left: 47%;
+    bottom: 10%;
+}
+.all {
+	width: 100%;
+	height: 1500px;
+	background: url(../img/图片1.jpg) rgba(2, 2, 2, 0.3);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.surprise{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	animation: wode 5s linear forwards;
+}
+@keyframes wode{
+	0%,100%{
+		opacity: 1;
+		transform: scale(1,1);
+	}
+	50%{
+		opacity: 0;
+		transform: scale(2,2);
+	}
+}
+.banner {
+	width: 100%;
+	height: 300px;
+}
+
+.banner img {
+	width: 100%;
+	height: 300px;
+	opacity: 0.7;
+}
+
+.one {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.two {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.three {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.four {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.first {
+	width: 996px;
+	height: 950px;
+	position: relative;
+	margin: auto;
+}
+
+.all nav {
+	width: 100%;
+	height: 100px;
+	/*position: fixed;
+	z-index: 2; */
+	/*background: rgba(2,2,2,0.2);*/
+}
+
+.sort .free {
+	width: 180px;
+	height: 50px;
+	position: fixed;
+	right: 0px;
+	top: 600px;
+	color: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	background: none;
+}
+
+.iii {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-top: solid 2px white;
+	border-left: solid 2px white;
+	transform: rotate(-135deg);
+	position: fixed;
+	z-index: 88;
+	top: 680px;
+	right: 100px;
+	animation: duang 1s linear infinite;
+}
+
+@keyframes duang {
+	0% {
+		top: 680px;
+		opacity: 1;
+	}
+	100% {
+		top: 750px;
+		opacity: 0;
+	}
+}
+
+.free b {
+	font-size: 18px;
+}
+
+.free span {
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+
+.sort {
+	width: 880px;
+	height: 100px;
+	margin: auto;
+}
+
+
+/*.sort .top{
+	position: relative;
+	top: 0px;
+	animation: shang 2s linear infinite;
+}*/
+
+.sort li {
+	float: left;
+	display: block;
+	width: 65px;
+	height: 65px;
+	margin-top: 20px;
+	margin-left: 100px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.li1 {
+	position: relative;
+	top: 0;
+	animation: shang 2s linear infinite;
+}
+
+.li2 {
+	position: relative;
+	top: 0;
+	animation: xia 2.25s linear infinite;
+}
+
+@keyframes xia {
+	0%,
+	100% {
+		top: 0px
+	}
+	50% {
+		top: 20px;
+	}
+}
+
+.li3 {
+	position: relative;
+	top: 0;
+	animation: toop 2.5s linear infinite;
+}
+
+@keyframes toop {
+	0%,
+	100% {
+		top: 1px;
+	}
+	50% {
+		top: 25px;
+	}
+}
+
+.li4 {
+	position: relative;
+	top: 0;
+	animation: dowm 3s linear infinite;
+}
+
+@keyframes dowm {
+	0%,
+	100% {
+		top: 0px;
+	}
+	50% {
+		top: 25px;
+	}
+}
+
+@keyframes shang {
+	0%,
+	100% {
+		top: 0px;
+	}
+	50% {
+		top: 15px;
+	}
+}
+
+.sort li a {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	/*top: 20px;
+	left: 15px;*/
+	text-decoration: none;
+	color: white;
+}
+
+.sort a:hover {
+	color: #007AFF;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.sort .top {
+	color: #007AFF;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+
+/*.top{
+	position: relative;
+	left: 15px;	
+}
+.top1{
+	margin-left: -5px;
+}*/
+
+.photo-left-big {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	top: 30px;
+	left: 80px;
+	animation: revolve 15s linear infinite;
+}
+
+@keyframes revolve {
+	from {
+		transform: rotate(0deg);
+		transform-origin: center;
+	}
+	to {
+		transform: rotate(360deg);
+		transform-origin: center;
+	}
+}
+
+.photo-left-big .ii1 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.photo-left-big .ii2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.first .photo-left {
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	top: 30px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	left: 80px;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.photo-left .left-circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	float: left;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.first img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.left {
+	width: 400px;
+	height: 900px;
+	float: left;
+	transform: rotateX(-45deg) rotateY(135deg)
+}
+
+.bigright {
+	width: 400px;
+	height: 900px;
+	float: right;
+}
+
+.photo-left2 {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	    bottom: 50px;
+    left: -80px;
+	transform: rotateX(-45deg) rotateY(135deg)
+}
+
+.photo-left2-1 {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	top: 0px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.left-circle-1 {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	float: left;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.photo-left-big1 {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	animation: revolve1 17s linear infinite;
+}
+
+@keyframes revolve1 {
+	from {
+		transform: rotate(0deg);
+		transform-origin: center;
+	}
+	to {
+		transform: rotate(360deg);
+		transform-origin: center;
+	}
+}
+
+.photo-left-big1 .ii1 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.photo-left-big1 .ii2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.photo-right {
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	    right: 0px;
+    top: 340px;
+
+	transform: rotateX(70deg) rotateY(181deg)
+}
+
+
+/*右边*/
+
+.photo-right2-1 {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	top: 0px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.right-circle-1 {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.photo-right-big1 {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	animation: revolve2 15s linear infinite;
+}
+
+@keyframes revolve2 {
+	from {
+		transform: rotate(0deg);
+		transform-origin: center;
+	}
+	to {
+		transform: rotate(-360deg);
+		transform-origin: center;
+	}
+}
+
+.photo-right-big1 .ii1 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.photo-right-big1 .ii2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+
+/*右边2*/
+
+.photo-right3 {
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	right: 80px;
+	bottom: -30px;
+	transform: rotateX(30deg) rotateY(135deg);
+}
+
+.photo-right3-1 {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	top: 0px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.right3-circle-1 {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.photo-right3-big1 {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	animation: revolve3 15s linear infinite;
+}
+
+@keyframes revolve3 {
+	from {
+		transform: rotate(0deg);
+		transform-origin: center;
+	}
+	to {
+		transform: rotate(-360deg);
+		transform-origin: center;
+	}
+}
+
+.photo-right3-big1 .ii1 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.photo-right3-big1 .ii2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.sun-1 {
+	    display: inline-block;
+    width: 462px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(20deg);
+    position: absolute;
+    top: 410px;
+    left: 270px;
+    z-index: 6;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.sun-2 {
+	display: inline-block;
+    width: 340px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 155px;
+    left: 350px;
+    z-index: 6;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+.sun-3 {
+	display: inline-block;
+    width: 420px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 380px;
+    left: 320px;
+    z-index: 6;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+
+.text-span-1 {
+	font-size: 25px;
+	font-family: "华文行楷";
+	position: absolute;
+	top: 460px;
+	left: 80px;
+	color: rgba(255, 255, 255, .75);
+	box-shadow: 0 0 20px rgba(255, 255, 255, .7);
+}
+
+.text-span-2 {
+	font-size: 25px;
+	font-family: "华文行楷";
+	position: absolute;
+	top: 590px;
+	right: 150px;
+	color: rgba(255, 255, 255, .75);
+	box-shadow: 0 0 20px rgba(255, 255, 255, .7);
+}
+
+.text-span-3 {
+	font-size: 25px;
+	font-family: "华文行楷";
+	position: absolute;
+	bottom: 50px;
+	left: 130px;
+	color: rgba(255, 255, 255, .75);
+	box-shadow: 0 0 20px rgba(255, 255, 255, .7);
+}
+
+.text-span-4 {
+	font-size: 25px;
+	font-family: "华文行楷";
+	position: absolute;
+	bottom: 0px;
+	right: 350px;
+	color: rgba(255, 255, 255, .75);
+	box-shadow: 0 0 20px rgba(255, 255, 255, .7);
+}
+#canvas{
+	background: rgba(255,255,255,0);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}

@@ -1,0 +1,638 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.my{
+	
+	color: white;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+    left: 47%;
+    bottom: 10%;
+}
+.all {
+	width: 100%;
+	height: 1400px;
+	background: url(../img/图片1.jpg) rgba(2, 2, 2, 0.3);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.surprise{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	animation: wode 5s linear forwards;
+}
+@keyframes wode{
+	0%,100%{
+		opacity: 1;
+		transform: scale(1,1);
+	}
+	50%{
+		opacity: 0;
+		transform: scale(2,2);
+	}
+}
+.banner {
+	width: 100%;
+	height: 300px;
+}
+
+.banner img {
+	width: 100%;
+	height: 300px;
+	opacity: 0.7;
+}
+
+.one {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.two {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.three {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.four {
+	width: 100%;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.first {
+	width: 996px;
+	height: 900px;
+	position: relative;
+	margin: auto;
+	color: #dde7e7;
+	/*top: 100px;*/
+	/*background: rgba(255,255,255,0.05);*/
+}
+
+.all nav {
+	width: 100%;
+	height: 100px;
+	/*position: fixed;
+	z-index: 2; */
+	/*background: rgba(2,2,2,0.2);*/
+}
+
+.sort .free {
+	width: 180px;
+	height: 50px;
+	position: fixed;
+	right: 0px;
+	top: 600px;
+	color: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	background: none;
+}
+
+.iii {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-top: solid 2px white;
+	border-left: solid 2px white;
+	transform: rotate(-135deg);
+	position: fixed;
+	z-index: 88;
+	top: 680px;
+	right: 100px;
+	animation: duang 1s linear infinite;
+}
+
+@keyframes duang {
+	0% {
+		top: 680px;
+		opacity: 1;
+	}
+	100% {
+		top: 750px;
+		opacity: 0;
+	}
+}
+
+.free b {
+	font-size: 18px;
+}
+
+.free span {
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+
+.sort {
+	width: 880px;
+	height: 100px;
+	margin: auto;
+}
+
+
+/*.sort .top{
+	position: relative;
+	top: 0px;
+	animation: shang 2s linear infinite;
+}*/
+
+.sort li {
+	float: left;
+	display: block;
+	width: 65px;
+	height: 65px;
+	margin-top: 20px;
+	margin-left: 100px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.li1 {
+	position: relative;
+	top: 0;
+	animation: shang 2s linear infinite;
+}
+
+.li2 {
+	position: relative;
+	top: 0;
+	animation: xia 2.25s linear infinite;
+}
+
+@keyframes xia {
+	0%,
+	100% {
+		top: 0px
+	}
+	50% {
+		top: 20px;
+	}
+}
+
+.li3 {
+	position: relative;
+	top: 0;
+	animation: toop 2.5s linear infinite;
+}
+
+@keyframes toop {
+	0%,
+	100% {
+		top: 1px;
+	}
+	50% {
+		top: 25px;
+	}
+}
+
+.li4 {
+	position: relative;
+	top: 0;
+	animation: dowm 3s linear infinite;
+}
+
+@keyframes dowm {
+	0%,
+	100% {
+		top: 0px;
+	}
+	50% {
+		top: 25px;
+	}
+}
+
+@keyframes shang {
+	0%,
+	100% {
+		top: 0px;
+	}
+	50% {
+		top: 15px;
+	}
+}
+
+.sort li a {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	/*top: 20px;
+	left: 15px;*/
+	text-decoration: none;
+	color: white;
+}
+
+.sort a:hover {
+	color: #007AFF;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.sort .top {
+	color: #007AFF;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+
+/*.top{
+	position: relative;
+	left: 15px;	
+}
+.top1{
+	margin-left: -5px;
+}*/
+
+.second {
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 100px 0 0px 100px;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+.smallsecond {
+	width: 430px;
+	height: 180px;
+	border-radius: 90px 0 0 90px;
+	margin: 10px auto 0px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.smallsecond-1 {
+	width: 480px;
+	height: 180px;
+	border-radius: 0px 90px 90px 0px;
+	margin: 10px auto 0px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.third {
+	width: 510px;
+	height: 200px;
+	float: right;
+	margin-top: 20px;
+	position: relative;
+	right: -140px;
+	border-radius: 0 100px 100px 0px;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+.third .line {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 495px;
+	top: 100px;
+	width: 30px;
+	height: 2px;
+	border-top: dashed white 2px;
+}
+
+.third .line2 {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 480px;
+	top: 70px;
+	width: 70px;
+	height: 2px;
+	border-top: dashed white 2px;
+	transform: rotate(60deg);
+}
+
+.fourth {
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 100px 0 0px 100px;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+.fivth {
+	width: 510px;
+	height: 200px;
+	float: right;
+	margin-top: 20px;
+	position: relative;
+	right: -140px;
+	border-radius: 0px 100px 100px 0px;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+.fivth .line {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 495px;
+	top: 100px;
+	width: 30px;
+	height: 2px;
+	border-top: dashed white 2px;
+}
+
+.fivth .line2 {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 480px;
+	top: 70px;
+	width: 70px;
+	height: 2px;
+	border-top: dashed white 2px;
+	transform: rotate(60deg);
+}
+
+.sixth {
+	width: 600px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.right {
+	width: 300px;
+	height: 860px;
+	float: right;
+	border-radius: 150px 150px 0 0;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.right1 {
+	width: 280px;
+	height: 840px;
+	border-radius: 140px 140px 0 0;
+	background: rgba(255, 255, 255, 0.1);
+	margin: auto;
+	position: relative;
+	top: 10px;
+}
+
+.circle {
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	margin: auto;
+	position: relative;
+	top: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.circle img {
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+}
+
+.right-text-1 {
+	width: 260px;
+	height: 540px;
+	margin: 50px auto 0;
+	position: relative;
+	/*top: 70px;*/
+	/*background: rgba(255,255,255,0.5);*/
+}
+
+.streight {
+	width: 10px;
+	height: 860px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 20px;
+	float: right;
+	position: relative;
+	right: 450px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 20px rgba(255, 255, 255, 1.5);
+}
+
+.streight .i1 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 30px;
+	right: 10px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.i2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 220px;
+	right: 10px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.i3 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 410px;
+	right: 10px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.i4 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 600px;
+	right: 10px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.i1-1,
+.i2-1,
+.i3-1,
+.i4-1 {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	right: 5px;
+	bottom: 5px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.line {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: -30px;
+	top: 100px;
+	width: 30px;
+	height: 2px;
+	border-top: dashed white 2px;
+}
+
+.line2 {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: -112px;
+	top: 70px;
+	width: 70px;
+	height: 2px;
+	border-top: dashed white 2px;
+	transform: rotate(-60deg);
+}
+
+.smallsecond img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+}
+
+.smallsecond-1 img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+}
+
+.smallsecond-1 a {
+	color: white;
+	font-size: 16px;
+}
+
+.smallsecond-1 a:hover {
+	color: #00cccc;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.smallsecond a {
+	color: white;
+	font-size: 16px;
+}
+
+.smallsecond a:hover {
+	color: #00cccc;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.left-text-1 {
+	width: 430px;
+	height: 180px;
+	border-radius: 90px 0 0 90px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.left-text-1 p {
+	display: block;
+	width: 280px;
+	height: 130px;
+	position: relative;
+	left: 180px;
+	top: -140px;
+}
+
+.left-text-2 {
+	width: 480px;
+	height: 180px;
+	border-radius: 0px 90px 90px 0px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.left-text-2 p {
+	display: block;
+	width: 360px;
+	height: 130px;
+	position: relative;
+	left: 200px;
+	top: -140px;
+}
+
+.left-text-3 {
+	width: 430px;
+	height: 180px;
+	border-radius: 90px 0 0 90px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.left-text-3 p {
+	display: block;
+	width: 360px;
+	height: 130px;
+	position: relative;
+	left: 180px;
+	top: -140px;
+}
+
+.left-text-4 {
+	width: 480px;
+	height: 180px;
+	border-radius: 0px 90px 90px 0px;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.left-text-4 p {
+	display: block;
+	width: 360px;
+	height: 130px;
+	position: relative;
+	left: 200px;
+	top: -140px;
+}
+
+.span-text {
+	display: block;
+	width: 240px;
+	height: 20px;
+	position: relative;
+	top: 15px;
+	margin: 10px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.smallsecond .span-text a:hover {
+	color: #00cccc;
+	text-decoration: underline;
+}
+#canvas{
+	background: rgba(255,255,255,0);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
